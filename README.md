@@ -74,7 +74,7 @@ The application exposes the following REST API endpoints:
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/image-processing-system.git
+   git clone https://github.com/neeraj-22/nodejs-image-compression.git
 2. Install Dependencies
    ```bash
    npm install
