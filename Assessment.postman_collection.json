@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "6f1eac64-3968-42aa-b051-8c65006972c6",
+		"name": "Spyne Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26019745"
+	},
+	"item": [
+		{
+			"name": "Spyne",
+			"item": [
+				{
+					"name": "Upload",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "csv",
+									"type": "file",
+									"src": "/Users/neeraj/dev/applications/spyne/assignment/sample.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/upload",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "csv",
+									"type": "file",
+									"src": "/Users/neeraj/dev/applications/spyne/assignment/sample.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/upload",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
